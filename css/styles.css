@@ -39,7 +39,68 @@
 
 @media screen and (min-width:320px) and (max-width:767px){
 
-    /* 1 sekcja*/
+/*header*/
+.header  .list{
+    display: none;
+}
+
+
+
+.header-div{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid var(--Accent);
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.logo{
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    position: relative;
+
+    text-transform: uppercase;
+    color:var(--Primary-Brand);
+    text-decoration: none;
+    margin-right: 76px;
+    font-style: normal;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+
+}
+
+.span-header{
+    color: var(--Dark);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+
+}
+
+.svg-header{
+    justify-content: flex-end;
+    margin-right:16px;
+    margin-top:24px;
+    margin-bottom: 24px;
+    fill: var(--Dark);
+}
+
+.svg-header > use{
+    fill: var(--Dark);
+}
+
+
+/*----------*/
+
+/* 1 sekcja*/
 .container-image{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)),
@@ -94,6 +155,20 @@
     border-radius: 4px;
     margin:auto;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.link{
+    font-weight: 500;
+    color:var(--Dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 24px 0;
+    position: relative;
+    
+    
+
 }
 
 /*----------*/
