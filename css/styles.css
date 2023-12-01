@@ -90,11 +90,7 @@
     margin-right:16px;
     margin-top:24px;
     margin-bottom: 24px;
-    fill: var(--Dark);
-}
 
-.svg-header > use{
-    fill: var(--Dark);
 }
 
 
