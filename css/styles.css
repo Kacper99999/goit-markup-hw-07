@@ -154,7 +154,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     letter-spacing: 0.64px;
     color: var(--White-background);
     background-color: var(--Primary-Brand);
@@ -399,6 +399,11 @@
     background-color: var(--Pressed-state);
 }
 
+.icon{
+    fill: var(--Light);
+}
+
+
 /*5 sekcja*/
 
 
@@ -428,6 +433,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .section-fourth-opcion .second-headline{
@@ -613,6 +619,29 @@
 }
 
 /*----------*/
+
+
+/*js menu*/
+
+.backrop-two{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 796px;
+    background-color: var(--White-background);
+}
+
+
+
+
+
+
+
+/*----------*/
+
+
+
 
 
 }
