@@ -596,7 +596,7 @@
 }
 
 .footer-input{
-    width: 264px;
+    width: 428px;
     height: 40px;
     background-color: transparent;
     border: 1px solid var(--White-background);
@@ -608,6 +608,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     box-shadow:0px 4px 4px 0px rgba(0,0,0,0.15);
+    margin:0px 15px;
 }
 
 .footer-input::placeholder{
