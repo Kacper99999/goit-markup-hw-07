@@ -42,72 +42,83 @@
     }
     
 /*header*/
-.header  .list{
-    display: none;
-}
 
-
-.header .link{
-    font-family: "Raleway",sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    position: relative;
-
-    text-transform: uppercase;
-    color:var(--Primary-Brand);
-    text-decoration: none;
-    margin-right: 76px;
-    font-style: normal;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-
+.header{
+    border-bottom: 1px solid var(--Accent);
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    margin:auto;
+    display: flex;
 }
 
 .header-div{
-    display: flex;
+    display:flex;
+    height: 72px;
+
 }
 
-.header{
+.nav{
     display: flex;
-    max-width: 428px;
-    border-bottom: 1px solid var(--Accent);
-    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    align-items: center;
+
+}
+
+.nav > .list{
+    display: none;
 }
 
 .logo{
     font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
-    position: relative;
-
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
-    margin-right: 76px;
+    margin-right: 120px;
+    margin-left:16px;
+}
+
+.link{
+    font-weight: 500;
+    color:var(--Dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    padding: 24px 0;
+    position: relative;
     font-style: normal;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-
-}
-
-.span-header{
-    color: var(--Dark);
-}
-
-.nav{
-    display: flex;
-    align-items: center;
-    margin-left: 16px;
 
 }
 
 .svg-header{
     justify-content: flex-end;
-    margin-right:16px;
-    margin-top:24px;
-    margin-bottom: 24px;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center;
 
 }
+
+
+.span-header{
+    color: var(--Dark);
+}
+
+.nav > .logo{
+    color: var(--Primary-Brand);
+}
+
+.list{
+    display: none;
+
+}
+
+
+.adres{
+    display: none;
+}
+
 
 
 /*----------*/
@@ -931,7 +942,12 @@
         margin:0 auto;
     }
     
-    
+    .container-image > .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     
     .section{
         background-color:var(--Hero-background);
