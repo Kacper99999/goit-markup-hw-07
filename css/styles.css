@@ -75,8 +75,6 @@
     text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
-    margin-right: 120px;
-    margin-left:16px;
 }
 
 .link{
@@ -1302,25 +1300,24 @@
 
 .logo{
     font-family: "Raleway",sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
-    margin-right: 76px;
+}
+
+.footer .logo{
+    margin-left:0px;
 }
 
 .link-footer{
-    font-weight: 500;
-    color:var(--Dark);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-bottom: 17.5px;
 }
 
 .span-footer{
@@ -1354,6 +1351,7 @@
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
+    row-gap: 72px;
 
 }
 
@@ -1379,6 +1377,7 @@
 .form-footer{
     display: flex;
     gap:24px;
+    margin-right:70px;
 
 }
 
@@ -1428,6 +1427,8 @@
     margin-left: 16px;
     fill:var(--White-background);
 }
+
+
 /*----------*/
 
 
