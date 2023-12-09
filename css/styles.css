@@ -76,7 +76,6 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        padding: 32px;
         background-color: var(--White-background);
         z-index: 999;
       
@@ -118,7 +117,7 @@
         align-items: flex-start;
         gap:40px;
         margin-top:80px;
-        margin-left:8px;
+        margin-left:40px;
         margin-right:237px;
     }
 
@@ -174,14 +173,14 @@
         flex-direction: column;
         justify-content: center;
         margin-top:248px;
-        margin-left:8px;
+        margin-left:40px;
         
     }
 
     .menu-container .social-media-icons-two{
         gap:56px;
         margin-top:48px;
-        margin-left: 8px;
+        margin-left: 40px;
         margin-bottom: 40px;
         justify-content: flex-start;
     }
@@ -197,19 +196,19 @@
 .header{
     border-bottom: 1px solid var(--Accent);
     box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    margin:auto;
     display: flex;
 }
 
 .header-div{
     display:flex;
     height: 72px;
+    justify-content: space-between;
 
 }
 
 .nav{
     display: flex;
-    align-items: center;
+    
 
 }
 
@@ -242,10 +241,11 @@
 }
 
 .svg-header{
-    justify-content: flex-end;
-    margin: auto;
-    justify-content: flex-end;
-    align-items: center;
+   
+    position: absolute;
+    right: 24px;
+    top:24px;
+
 
 }
 
