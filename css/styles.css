@@ -223,7 +223,6 @@ img{
 .header{
     border-bottom: 1px solid var(--Accent);
     box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    margin:auto;
     display: flex;
 }
 
@@ -581,8 +580,25 @@ img{
 
 }
 
+
+
+
+
 .social-media-parameters:focus{
     background-color: var(--Pressed-state);
+}
+
+
+
+.social-media-footer:focus{
+    background-color: var(--Success);
+}
+
+
+
+.customer:focus{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
 }
 
 .icon{
@@ -1635,13 +1651,31 @@ img{
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
-.social-media-parameters:hover{
-    background-color: var(--Pressed-state);
 
-}
+
 
 .social-media-parameters:focus{
     background-color: var(--Pressed-state);
+}
+
+
+
+.social-media-footer:focus{
+    background-color: var(--Success);
+}
+
+.social-media-footer:focus{
+    background-color: var(--Success);
+}
+
+
+.customer:focus{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
+}
+
+.icon{
+    fill: var(--Light);
 }
 
 .icon{
