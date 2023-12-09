@@ -107,8 +107,7 @@
 
       .icon-close{
         transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
-        color: #2E2F42;
-        fill: var(--Dark);
+        fill: var(--Modal-overlay);
         
     }
 
