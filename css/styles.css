@@ -33,6 +33,20 @@
 }
 
 
+
+
+body{
+    color:var(--Text);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--White-background);
+
+}
+
+img{
+    display: block;
+    height: auto;    
+}
+
 @media screen and (min-width:320px) and (max-width:767px){
 
 
@@ -76,6 +90,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
+        padding: 32px;
         background-color: var(--White-background);
         z-index: 999;
       
@@ -117,7 +132,7 @@
         align-items: flex-start;
         gap:40px;
         margin-top:80px;
-        margin-left:40px;
+        margin-left:8px;
         margin-right:237px;
     }
 
@@ -173,14 +188,14 @@
         flex-direction: column;
         justify-content: center;
         margin-top:248px;
-        margin-left:40px;
+        margin-left:8px;
         
     }
 
     .menu-container .social-media-icons-two{
         gap:56px;
         margin-top:48px;
-        margin-left: 40px;
+        margin-left: 8px;
         margin-bottom: 40px;
         justify-content: flex-start;
     }
@@ -189,26 +204,32 @@
 /*header*/
 
 
-.container{
-    max-width: 428px;
-    margin: 0 auto;
+.container-phone{
+    width: 100%;
+    margin-left:16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
 .header{
     border-bottom: 1px solid var(--Accent);
     box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    margin:auto;
     display: flex;
 }
 
 .header-div{
     display:flex;
     height: 72px;
-    justify-content: space-between;
 
 }
 
 .nav{
     display: flex;
-    
+    align-items: center;
 
 }
 
@@ -241,11 +262,8 @@
 }
 
 .svg-header{
-   
-    position: absolute;
-    right: 24px;
-    top:24px;
-
+    display: flex;
+    align-items: center;
 
 }
 
@@ -952,6 +970,9 @@
 
     /*header*/
 
+    .container-phone{
+        display: none;
+    }
 
     .menu-toggle{
         display:none;
@@ -1637,53 +1658,12 @@
 
 @media screen and (min-width:1200px) {
 
+    
+    .container-phone{
+        display: none;
+    }
 
 
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    :root{
-    
-        --Primary-Brand:#4D5AE5;
-    
-        --Pressed-state:#404BBF;
-    
-        --Dark:#2E2F42;
-    
-        --Success:#31D0AA;
-    
-        --Text:#434455;
-    
-        --Subtle-Text:#8E8F99;
-    
-        --Accent:#E7E9FC;
-    
-        --Light:#F4F4FD;
-    
-        --Modal-overlay:#2E2F42;
-    
-        --Hero-background:#2E2F42;
-    
-        --White-background:#FFFFFF;
-    
-        --Modal-background:#FCFCFC;
-    
-    }
-    
-    body{
-        color:var(--Text);
-        font-family: "Roboto", sans-serif;
-        background-color: var(--White-background);
-    
-    }
-    
-    img{
-        display: block;
-        height: auto;    
-    }
-    
-    
     /*STYLES LINK*/
     .link{
         font-weight: 500;
