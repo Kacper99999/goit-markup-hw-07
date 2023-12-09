@@ -793,7 +793,6 @@ img{
 }
 
 .footer-button-svg{
-    margin-left: 16px;
     fill:var(--White-background);
 }
 
@@ -1235,12 +1234,13 @@ img{
     .header{
         border-bottom: 1px solid var(--Accent);
         box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-        margin:auto;
+        margin: auto;
     }
     
     .header-div{
         display:flex;
         height: 72px;
+        max-width: 767px;
     
     }
 
