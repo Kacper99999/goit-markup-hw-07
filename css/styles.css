@@ -302,6 +302,9 @@ img{
     display: none;
 }
 
+.header > .container{
+    width: 100%;
+}
 
 /*----------*/
 
