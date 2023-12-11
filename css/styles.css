@@ -302,7 +302,9 @@ img{
     display: none;
 }
 
-
+.header > .container{
+    display: none;
+}
 
 /*----------*/
 
