@@ -1206,6 +1206,15 @@ img{
         transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
     }
 
+
+    .link-image:hover .paragraf{
+        transform: translateY(0);
+    }
+    
+    .link-image:hover{
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+    
     .link-image:focus .paragraf{
         transform: translateY(0);
     }
@@ -2172,6 +2181,167 @@ img{
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
+
+
+
+/*section portfolio*/
+
+.section-portfolio{
+    padding-bottom: 48px;
+}
+
+.section-portfolio .list-atrybutes{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    width: 263px;
+    row-gap:24px;
+    column-gap: 16px;
+    margin-left:16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    
+}
+.section-portfolio h1{
+    display: none;
+}
+
+
+.section-portfolio .button{
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--Primary-Brand);
+    background-color: var(--Light);
+    padding: 8px 16px;
+    transition:color 250ms cubic-bezier(0.4,0,0.2,1),background-color 250ms cubic-bezier(0.4,0,0.2,1),border-color 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px;
+}
+
+.main-button:hover,
+    .button:hover{
+        color: var(--White-background);
+        background-color: var(--Pressed-state);
+        cursor: pointer;
+    }
+    
+
+    .button:hover{
+        border: 1px solid transparent;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    
+    .main-button:focus,
+    .button:focus{
+        color:var(--White-background);
+        background-color:var(--Pressed-state);
+    }
+    
+    .button:focus{
+        border: 1px solid transparent;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    
+    .button:active{
+        color: var(--White-background);
+        background-color: var(--Pressed-state);
+    }
+
+    .border-button{
+        border: 1px solid var(--Accent);
+        border-radius:4px ;
+    }
+
+    .link-photo{
+        font-weight: 500;
+        color:var(--Dark);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        
+    }
+
+    .list-element-two{
+        width: 356px;
+    }
+
+    .link-image{
+        text-decoration: none;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .appear{
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    .container-two{
+        padding: 32px 16px;
+        border: 1px solid var(--Accent);
+        border-top: none;
+        width:356px;
+    }
+
+    .paragraf{
+        position: absolute;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--Light);
+        padding: 40px 32px;
+        top:0;
+        background-color: var(--Primary-Brand);
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
+    }
+
+    .link-image:hover .paragraf{
+        transform: translateY(0);
+    }
+    
+    .link-image:hover{
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+    
+    .link-image:focus .paragraf{
+        transform: translateY(0);
+    }
+    
+    .link-image:focus{
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+
+    .section-.section-portfolio .list{
+        list-style: none;
+        display: flex;
+    
+    
+    }
+
+    .section-portfolio .container{
+        max-width:1199px;
+        margin-left:16px;
+    }
 
 
 /*----------*/
