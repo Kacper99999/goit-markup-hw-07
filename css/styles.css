@@ -570,7 +570,8 @@ img{
 
 .social-media-icons-two{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap:24px;
     list-style: none;
     margin-top: 8px;
 }
