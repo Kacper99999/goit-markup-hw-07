@@ -592,21 +592,26 @@ img{
 
 }
 
-
-
-
-
 .social-media-parameters:focus{
     background-color: var(--Pressed-state);
 }
 
-
+.social-media-footer:hover{
+    background-color: var(--Success);
+}
 
 .social-media-footer:focus{
     background-color: var(--Success);
 }
 
+.customer:hover{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
+}
 
+.icon-color:hover{
+    color: var(--Pressed-state);
+}
 
 .customer:focus{
     border-color: var(--Pressed-state);
@@ -812,7 +817,7 @@ img{
     width: 428px;
     height: 40px;
     background-color: transparent;
-    border: 1px solid var(--White-background);
+    border: 1px solid rgba(255, 255, 255, 0.6);;
     border-radius: 4px;
     padding-left: 16px;
     color: var(--White-background);
@@ -825,12 +830,10 @@ img{
 }
 
 .footer-input::placeholder{
-    color: var(--White-background);
+    color: rgba(255, 255, 255, 0.6);;
 }
 
-.footer-input > ::placeholder{
-    color: var(--White-background);
-}
+
 
 /*----------*/
 
@@ -1683,13 +1686,16 @@ img{
 
 
 
+.social-media-parameters:hover{
+    background-color: var(--Pressed-state);
+
+}
+
 .social-media-parameters:focus{
     background-color: var(--Pressed-state);
 }
 
-
-
-.social-media-footer:focus{
+.social-media-footer:hover{
     background-color: var(--Success);
 }
 
@@ -1697,6 +1703,14 @@ img{
     background-color: var(--Success);
 }
 
+.customer:hover{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
+}
+
+.icon-color:hover{
+    color: var(--Pressed-state);
+}
 
 .customer:focus{
     border-color: var(--Pressed-state);
@@ -1861,7 +1875,7 @@ img{
     width: 264px;
     height: 40px;
     background-color: transparent;
-    border: 1px solid var(--White-background);
+    border: 1px solid rgba(255, 255, 255, 0.6);;
     border-radius: 4px;
     padding-left: 16px;
     color: var(--White-background);
@@ -1873,12 +1887,10 @@ img{
 }
 
 .footer-input::placeholder{
-    color: var(--White-background);
+    color: rgba(255, 255, 255, 0.6);;
 }
 
-.footer-input > ::placeholder{
-    color: var(--White-background);
-}
+
 
 .footer-button{
     display:flex;
@@ -2791,7 +2803,7 @@ img{
         width: 264px;
         height: 40px;
         background-color: transparent;
-        border: 1px solid var(--White-background);
+        border: 1px solid rgba(255, 255, 255, 0.6);;
         border-radius: 4px;
         padding-left: 16px;
         color: var(--White-background);
@@ -2803,12 +2815,10 @@ img{
     }
     
     .footer-input::placeholder{
-        color: var(--White-background);
+        color: rgba(255, 255, 255, 0.6);
     }
     
-    .footer-input > ::placeholder{
-        color: var(--White-background);
-    }
+    
     
     .modal-checkbox{
         display: flex;
@@ -3152,38 +3162,3 @@ img{
     
     /*------------------------------------------------*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
