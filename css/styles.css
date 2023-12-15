@@ -1498,10 +1498,6 @@ img{
 
 
 
-.footer-button-svg{
-    margin-left: 16px;
-}
-
 
 
 /*----------*/
@@ -1652,14 +1648,7 @@ img{
         margin-bottom: 72px;
     }
     
-    .border-button{
-        border: 1px solid var(--Accent);
-        border-radius:4px ;
-    }
-    
-    .footer-button-svg{
-        margin-left: 16px;
-    }
+
 
     /*------------------------------------------------*/
     
