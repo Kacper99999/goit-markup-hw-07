@@ -1104,6 +1104,7 @@ img{
         width: 396px;
         margin-left: 16px;
         margin-right:16px;
+        padding-left:40px;
     }
 
     .link-image{
@@ -1185,6 +1186,7 @@ img{
     .section-third-opcion{
         display: none;
     }
+
 
 
 }
@@ -1499,6 +1501,7 @@ img{
 
     .list-element-two{
         width: 356px;
+        padding-left:0px;
     }
 
 
@@ -1706,6 +1709,7 @@ img{
     
     .list-element-two{
         width: calc((100% - 48px) / 3);
+        padding-left:0px;
     }
     
     .list-element-three{
