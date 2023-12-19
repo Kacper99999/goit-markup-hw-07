@@ -1515,6 +1515,10 @@ img{
         row-gap: 24px;
     }
 
+    .section-portfolio{
+        padding: 64px 0px;
+    }
+
     .section-portfolio .list{
         list-style: none;
         display: flex;
@@ -1525,7 +1529,6 @@ img{
 
     .section-portfolio .container{
         max-width:1199px;
-        padding: 64px 0px;
     }
 
 
