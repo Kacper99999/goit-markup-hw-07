@@ -278,6 +278,10 @@ img{
     gap: 40px;
 }
 
+.section-portfolio .list{
+    flex-direction: column;
+}
+
 
 .adres{
     display: none;
