@@ -1515,9 +1515,10 @@ img{
         row-gap: 24px;
     }
 
-    .section-.section-portfolio .list{
+    .section-portfolio .list{
         list-style: none;
         display: flex;
+        flex-direction: row;
     
     
     }
@@ -1697,6 +1698,10 @@ img{
     .list-atrybutes{
         flex-direction: row;
         gap:24px;
+    }
+
+    .section-portfolio .list{
+        flex-direction: row;
     }
 
     
