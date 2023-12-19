@@ -431,9 +431,6 @@ img{
 }
 
 
-.section-second-opcion svg{
-    display:none;
-}
 
 /*----------*/
 
@@ -1185,6 +1182,9 @@ img{
         display: none;
     }
 
+    .section-second-opcion svg{
+        display:none;
+    }
 
 
 }
@@ -1531,6 +1531,10 @@ img{
         max-width:1199px;
     }
 
+    .section-second-opcion svg{
+        display:none;
+    }
+
 
 /*----------*/
 
@@ -1773,6 +1777,8 @@ img{
     .svg-element{
         display: flex;
         height: 112px;
+        width:264px;
+        flex-shrink: 0;
         background-color: var(--Light);
         border-radius: 4px;
         margin-bottom: 8px;
