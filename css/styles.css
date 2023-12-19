@@ -1035,7 +1035,7 @@ img{
 /*section portfolio*/
 
 .section-portfolio{
-    padding-bottom: 48px;
+    padding: 48px 0px;
 
 }
 
@@ -1047,8 +1047,6 @@ img{
     width: 263px;
     row-gap:24px;
     column-gap: 16px;
-    margin-left:16px;
-    margin-top: 48px;
     margin-bottom: 48px;
     
 }
@@ -1526,7 +1524,7 @@ img{
 
     .section-portfolio .container{
         max-width:1199px;
-        margin-left:16px;
+        padding: 64px 0px;
     }
 
 
