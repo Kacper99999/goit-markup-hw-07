@@ -382,8 +382,6 @@ img{
     align-items: flex-start;
     justify-content: center;
     gap: 72px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 
 
@@ -1035,7 +1033,7 @@ img{
 /*section portfolio*/
 
 .section-portfolio{
-    padding: 48px 0px;
+    padding: 48px 16px;
 
 }
 
@@ -1100,9 +1098,6 @@ img{
 
     .list-element-two{
         width: 396px;
-        margin-left: 16px;
-        margin-right:16px;
-        padding-left:40px;
     }
 
     .link-image{
