@@ -112,6 +112,7 @@ img{
         justify-content: center;
         background-color: var(--Modal-background);
         border: 1px solid rgba(0,0,0,0.1);
+        fill: var(--Modal-overlay);
         padding: 0;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),border 250ms cubic-bezier(0.4,0,0.2,1);
@@ -119,7 +120,6 @@ img{
 
       .icon-close{
         transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
-        fill: var(--Modal-overlay);
         
     }
 
@@ -834,6 +834,7 @@ img{
     justify-content: center;
     background-color: var(--Accent);
     border: 1px solid rgba(0,0,0,0.1);
+    fill: var(--Modal-overlay);
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),border 250ms cubic-bezier(0.4,0,0.2,1);
