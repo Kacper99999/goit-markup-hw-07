@@ -180,22 +180,12 @@ img{
         text-decoration: none;
     }
     
-    .mobile-menu-two{
-        display:flex;
-        gap:40px;
-        flex-direction: column;
-        justify-content: center;
-        margin-top:248px;
-        margin-left:8px;
-        
-    }
 
     .menu-container .social-media-icons-two{
         gap:56px;
-        margin-top:48px;
-        margin-left: 8px;
-        margin-bottom: 40px;
-        justify-content: flex-start;
+        margin: auto;
+        position: absolute;
+        bottom: 40px;
     }
 /*  ----------  */
     
@@ -799,6 +789,16 @@ img{
     background-color: var(--White-background);
 }
 
+.mobile-menu-two .active-link{
+    position: absolute;
+    bottom: 192px;
+}
+
+.mobile-menu-two .emial-info{
+    position: absolute;
+    bottom: 128px;
+}
+
 
 /*----------*/
 
@@ -1005,12 +1005,18 @@ img{
 .close-btn:focus{
     background-color: var(--Pressed-state);
     border: none;
-    fill: var(--White-background);
 }
 
 .close-btn:hover{
     background-color: var(--Pressed-state);
     border: none;
+}
+
+.icon-close:hover{
+    fill:var(--White-background);
+}
+
+.icon-close:focus{
     fill:var(--White-background);
 }
 
