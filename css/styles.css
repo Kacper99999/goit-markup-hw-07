@@ -1005,20 +1005,15 @@ img{
 .close-btn:focus{
     background-color: var(--Pressed-state);
     border: none;
+    fill: var(--White-background);
 }
 
 .close-btn:hover{
     background-color: var(--Pressed-state);
     border: none;
-}
-
-.close-btn>.icon-close:hover{
     fill: var(--White-background);
 }
 
-.close-btn>.icon-close:focus{
-    fill: var(--White-background);
-}
 
 .checkbox-input{
     overflow: hidden;
