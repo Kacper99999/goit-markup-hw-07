@@ -1012,12 +1012,12 @@ img{
     border: none;
 }
 
-.icon-close:hover{
-    fill:var(--White-background);
+.close-btn>.icon-close:hover{
+    fill: var(--White-background);
 }
 
-.icon-close:focus{
-    fill:var(--White-background);
+.close-btn>.icon-close:focus{
+    fill: var(--White-background);
 }
 
 .checkbox-input{
