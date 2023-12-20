@@ -50,8 +50,8 @@ img{
 
 
 
-    @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
+
+@media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .container-image {
@@ -86,7 +86,6 @@ img{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
         padding: 32px;
         background-color: var(--White-background);
         z-index: 999;
@@ -100,23 +99,6 @@ img{
         transform: translateX(0);
       }
 
-      .menu-container .close-btn{
-        position: absolute;
-        top:24px;
-        right: 24px;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--Modal-background);
-        border: 1px solid rgba(0,0,0,0.1);
-        fill: var(--Modal-overlay);
-        padding: 0;
-        cursor: pointer;
-        transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),border 250ms cubic-bezier(0.4,0,0.2,1);
-      }
 
       .icon-close{
         transition: fill 250ms cubic-bezier(0.4,0,0.2,1);
@@ -260,6 +242,7 @@ img{
 
 .nav > .logo{
     color: var(--Primary-Brand);
+    font-size: 18px;
 }
 
 .list{
@@ -471,7 +454,6 @@ img{
     padding-bottom: 0px;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
     
 }
 
@@ -1042,14 +1024,14 @@ img{
 }
 
 .section-portfolio .list-atrybutes{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap:wrap;
     width: 263px;
     row-gap:24px;
     column-gap: 16px;
-    margin-bottom: 48px;
+    margin: 48px auto;
     
 }
 .section-portfolio h1{
@@ -1102,7 +1084,12 @@ img{
 
     .list-element-two{
         width: 396px;
-        padding-left: 40px;
+        margin:auto;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+    .list-element-two img{
+        width: 100%;
     }
 
     .link-image{
@@ -1195,8 +1182,8 @@ img{
 @media screen and (min-width:768px) and (max-width:1200px) {
 
 
-    @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
+
+    @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .container-image {
@@ -1204,7 +1191,6 @@ img{
         url(../images/people-office-tablet-2-2.png);
     }
 }
-
 
     .menu-container{
         display: none;
@@ -1404,14 +1390,11 @@ img{
 
 
 
-.logo{
+.footer .logo{
+    margin-left:0px;
     font-family: "Raleway",sans-serif;
     color:var(--Primary-Brand);
     text-decoration: none;
-}
-
-.footer .logo{
-    margin-left:0px;
 }
 
 .link-footer{
@@ -1429,7 +1412,7 @@ img{
 .span-footer{
     color: var(--Light);
     max-width: 264px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -1502,7 +1485,10 @@ img{
 
     .list-element-two{
         width: 356px;
-        padding-left:0px;
+    }
+
+    .list-element-two img{
+        width: 100%;
     }
 
 
@@ -1519,23 +1505,34 @@ img{
     }
 
     .section-portfolio{
-        padding: 64px 0px;
+        padding-top: 64px;
+        padding-bottom: 96px;
     }
 
     .section-portfolio .list{
         list-style: none;
         display: flex;
         flex-direction: row;
+        row-gap: 72px;
+        column-gap: 24px;
     
     
     }
 
-    .section-portfolio .container{
-        max-width:1199px;
-    }
 
     .section-second-opcion svg{
         display:none;
+    }
+
+    .section-portfolio .list-atrybutes{
+        width: 100%;
+        gap:24px;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .link-photo>.list-element-two:last-child{
+        margin-left: 8px;
     }
 
 
@@ -1551,8 +1548,8 @@ img{
 
 
 
-    @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
+
+    @media(-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .container-image {
@@ -1696,7 +1693,7 @@ img{
     }
 
     .section-portfolio{
-        padding-top: 96px;
+        padding-top: 100px;
         padding-bottom: 120px;
     }
     
@@ -1708,6 +1705,13 @@ img{
     .list-atrybutes{
         flex-direction: row;
         gap:24px;
+    }
+
+    .section-portfolio .list-atrybutes{
+        width: 100%;
+        gap:24px;
+        justify-content: center;
+        margin-bottom: 84px;
     }
 
     .section-portfolio .list{
@@ -1847,9 +1851,6 @@ img{
         transition: color 250ms cubic-bezier(0.4,0,0.2,1);
     }
     
-    .logo{
-        margin-right: 76px;
-    }
 
 
     
@@ -1953,6 +1954,7 @@ img{
     .menu-container{
         display: none;
     }
+
     
     /*------------------------------------------------*/
 }
