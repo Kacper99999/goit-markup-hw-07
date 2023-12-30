@@ -638,7 +638,6 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:398px;
     gap:16px;
 }
 
@@ -742,6 +741,7 @@ img{
 
 .footer-button:hover{
     background-color: var(--Pressed-state);
+    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
 .footer-button-svg{
@@ -1095,9 +1095,8 @@ img{
 
 
     .list-element-two{
-        width: 396px;
         margin:auto;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        
     }
 
     .list-element-two img{
@@ -1463,6 +1462,7 @@ img{
 
 .form-footer{
     gap:24px;
+    width:398px;
     flex-direction: row;
 }
 
@@ -1497,11 +1497,15 @@ img{
 
     .list-element-two{
         width: 356px;
+        margin-left:0px;
+        margin-right: 0px;
     }
 
     .list-element-two img{
         width: 100%;
     }
+
+    
 
 
     .container-two{
@@ -1519,14 +1523,19 @@ img{
     .section-portfolio{
         padding-top: 64px;
         padding-bottom: 96px;
+        padding-left: 0px;
+        padding-right: 0px;
+
     }
 
     .section-portfolio .list{
         list-style: none;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         row-gap: 72px;
         column-gap: 24px;
+        margin:auto;
     
     
     }
@@ -1536,15 +1545,16 @@ img{
         display:none;
     }
 
+    
+
     .section-portfolio .list-atrybutes{
         width: 100%;
-        gap:24px;
         justify-content: center;
         margin-bottom: 64px;
     }
 
     .link-photo>.list-element-two:last-child{
-        margin-left: 8px;
+        margin-right:380px;
     }
 
 
